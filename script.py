@@ -26,4 +26,5 @@ print(f"Total tickers fetched: {len(tickers)}")
 df = pd.DataFrame(tickers)
 df.to_csv('tickers.csv', index=False)
 print("Data saved to tickers.csv")
+print("done successfully")
 
